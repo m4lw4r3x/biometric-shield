@@ -205,3 +205,27 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Keys or secrets
+.env
+*.key
+*.pem
+
+# Biometric or model files
+*.h5
+*.onnx
+*.ckpt
+*.pt
+*.pkl
+*.npy
+*.npz
+
+# Output folders
+outputs/
+runs/
