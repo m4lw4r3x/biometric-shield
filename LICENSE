@@ -19,3 +19,41 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+---
+
+## 🧠 Tool Ideas (Modules You Can Build)
+
+| Module Name                    | Description |
+|-------------------------------|-------------|
+| `biometric_masker.py`         | Use OpenCV or DLib to detect and blur faces, eyes, or bodies in photos and videos. |
+| `adversarial_patch_generator.py` | Train a small CNN to generate wearable image patterns (CV Dazzle-inspired). |
+| `local_biometric_vault.py`    | AES-256 encrypted biometric locker (no cloud upload). |
+| `cli/shield_cli.py`           | Terminal-based tool for batch image/video processing. |
+| `face_obfuscator_web.py`      | Optional web UI built with Gradio or Streamlit. |
+| `mobile_shield_launcher/`     | Placeholder for Android/iOS wrapper that uses on-device TensorFlow Lite. |
+
+---
+
+## 📚 Docs to Include
+
+You can place these in the `/docs` folder:
+
+1. **`threat-model.md`**  
+   Details of biometric surveillance threats.
+2. **`community-charter.md`**  
+   Your project’s ethical principles and rights declaration.
+3. **`use-cases.md`**  
+   How journalists, activists, or citizens can use the tool.
+
+---
+
+## 📌 Tasks to Track (TODO.md)
+
+```markdown
+- [x] Repo initialized
+- [ ] Add OpenCV-based face masker
+- [ ] Add CLI with basic masking options
+- [ ] Begin adversarial patch research
+- [ ] Encrypt local biometric files
+- [ ] Create demo notebooks for image masking
+- [ ] Write ethical use policy (no abuse)
